@@ -21,20 +21,78 @@ body {
 
 }
 
+.header-logo {
+    margin-right: 76px;
+}
+
+.header-nav-list {
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 72px;
+}
+
+
+
 .span-header {
     color: #2e2f42;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 2px solid red;
+    outline-offset: -2px;
+
+
+}
+
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-nav-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+}
+
+section {
+    padding: 120px 0;
 }
 
 .link {
@@ -49,8 +107,21 @@ body {
     color: #404bbf;
 }
 
+.header-nav {
+    margin-right: auto;
+}
+
 .adress {
     font-style: normal;
+}
+
+.adress-list {
+    display: flex;
+}
+
+.adress-mail-txt {
+    margin-right: 40px;
+
 }
 
 .adress-mail {
@@ -58,6 +129,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
 
 }
 
@@ -73,6 +145,8 @@ body {
 
 .hero-section {
     background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
 }
 
 .hero-title {
@@ -81,6 +155,8 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    width: 496px;
+    height: 120px;
 }
 
 .hero-btn {
@@ -92,6 +168,11 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    min-width: 169px;
+    min-height: 56px;
+    padding: 16px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 
 }
 
