@@ -286,6 +286,7 @@ section {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 
 }
 
@@ -297,6 +298,20 @@ section {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.footer-txt {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+width: 264px;
+height: 72px;
 }
 
 .span-footer {
