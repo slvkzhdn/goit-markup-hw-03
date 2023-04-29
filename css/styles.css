@@ -41,7 +41,6 @@ body {
 }
 
 
-
 .span-header {
     color: #2e2f42;
 }
@@ -231,7 +230,11 @@ section {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
 
+.employment-img {
+    width: calc((100% - 48px) / 3);
 }
 
 /* TEAM SECTION */
@@ -248,12 +251,17 @@ section {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 
 }
 
 .team-list-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
 
+.team-list-info {
+    padding: 32px 16px;
 }
 
 .team-list-title {
@@ -262,7 +270,8 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-list-p {
@@ -270,7 +279,7 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
+    text-align: center;
 }
 
 /* FOOTER */
